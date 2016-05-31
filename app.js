@@ -1945,10 +1945,10 @@ var BetRow = React.createClass({
         bet.cond + bet.target.toFixed(2)
       ),
       // // Roll
-      // el.td(
-      //   null,
-      //   bet.outcome
-      // ),
+       el.td(
+      null,
+         bet.outcome
+       ),
       // Visual
       el.td(
         {
